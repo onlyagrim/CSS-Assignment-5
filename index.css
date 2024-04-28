@@ -1,0 +1,192 @@
+body{
+    background-color: #F3D0D7;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 10px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    column-gap: 75px;
+    row-gap: 75px;
+    justify-content: center;
+
+
+}
+.gridnumbering{
+    align-self: end;
+    user-select: none;
+}
+
+.griditemskewLR {
+    animation-name: skewLR;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: #9B4444;
+}
+
+@keyframes skewLR {
+    0% {
+        transform: skewX(35deg);
+        filter: brightness(100%);
+    }
+    25%{
+        filter: brightness(130%);
+    }
+
+    50% {
+        transform: skewX(-35deg);
+        filter: brightness(100%);
+    }
+    75%{
+        filter: brightness(130%);
+    }
+
+    100% {
+        transform: skewX(35deg);
+        filter: brightness(100%);
+    }
+}
+
+.griditemskewTB {
+    animation-name: skewTB;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: #88AB8E;
+}
+
+@keyframes skewTB {
+    0% {
+        transform: skewY(35deg);
+        filter: brightness(100%);
+    }
+    25%{
+        filter: brightness(110%);
+    }
+
+    50% {
+        transform: skewY(-35deg);
+        filter: brightness(100%);
+    }
+    75%{
+        filter: brightness(110%);
+    }
+
+    100% {
+        transform: skewY(35deg);
+        filter: brightness(100%);
+    }
+}
+
+.griditemrotateright {
+    animation-name: rotateright;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: #176B87;
+}
+
+@keyframes rotateright {
+    0% {
+        filter: brightness(100%);
+    }
+    25%{
+        filter: brightness(130%);
+    }
+
+    50% {
+        transform: rotate(180deg);
+        filter: brightness(100%);
+    }
+
+    75%{
+        filter: brightness(130%);
+    }
+    100% {
+        transform: rotate(360deg);
+        filter: brightness(100%);
+    }
+}
+.griditemscaleX{
+
+    animation-name: scaleX;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: #EA906C;
+}
+@keyframes scaleX {
+    0% {
+        transform: scaleX(1);
+        filter: brightness(100%);
+    }
+    25%{
+        filter: brightness(130%);
+    }
+
+    50% {
+        transform: scaleX(1.5);
+        filter: brightness(100%);
+    }
+
+    75%{
+        filter: brightness(130%);
+    }
+    100% {
+        transform: scaleX(1);
+        filter: brightness(100%);
+    }
+    
+}
+.griditemscaleY{
+
+    animation-name: scaleY;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: #FC6736;
+}@keyframes scaleY {
+    0% {
+        transform: scale(1);
+        filter: brightness(100%);
+    }
+    25%{
+        filter: brightness(130%);
+    }
+
+    50% {
+        transform: scaleY(1.5);
+        filter: brightness(100%);
+    }
+
+    75%{
+        filter: brightness(130%);
+    }
+    100% {
+        transform: scaleY(1);
+        filter: brightness(100%);
+    }
+    
+}
+.griditemrotateback{
+
+    animation-name: rotateback;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: #0D1282;
+}@keyframes rotateback {
+    0% {
+        filter: brightness(100%);
+    }
+    25%{
+        filter: brightness(130%);
+    }
+
+    50% {
+        transform: rotate(90deg);
+        filter: brightness(100%);
+    }
+
+    75%{
+        filter: brightness(130%);
+    }
+    100% {
+        filter: brightness(100%);
+    }
+    
+}

@@ -1,0 +1,321 @@
+body{
+    background-color: #F3C583;
+}
+.grid1-container{
+    display: grid;
+    grid-template-columns: 20px 100px;
+    column-gap: 25px;
+    row-gap: 25px;
+    padding-left: 35%;
+}
+.grid1-item{
+    background-color: #f55c47;
+}
+.grid1item1{
+    width: 100px;
+    height: 100px;
+    transition: 2500ms;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+}
+.grid1item1:hover{
+    width: 200px;
+    background-color: rgb( 0, 155, 0);
+    transition-timing-function: ease;
+    animation-name: grid1animation;
+}
+@keyframes grid1animation {
+    0%{
+        background-color: #f55c47;
+    }
+    25%{
+        background-color: rgb(155,0 , 0);
+    }
+    50%{
+        background-color: rgb(0, 80, 0);
+    }
+     
+    100%{
+        background-color: rgb(0, 155, 0);
+    }
+}
+
+.grid1item2{
+    width: 100px;
+    height: 100px;
+    transition: 2500ms;
+    animation-duration: 2500ms;
+    animation-iteration-count: 1;
+}
+.grid1item2:hover{
+    width: 200px;
+    height: 200px;
+    background-color: rgb( 0, 155, 0);
+    transition-timing-function: ease;
+    animation-name: grid2animation;
+}
+@keyframes grid2animation {
+    0%{
+        background-color: #f55c47;
+    }
+    25%{
+        background-color: rgb(155,0 , 0);
+    }
+    50%{
+        background-color: rgb(0, 80, 0);
+    }
+     
+    100%{
+        background-color: rgb(0, 155, 0);
+    }
+}
+.grid1item3{
+    width: 100px;
+    height: 100px;
+    transition: 2500ms;
+    animation-duration: 2500ms;
+    animation-iteration-count: 1;
+}
+.grid1item3:hover{
+    width: 300px;
+    background-color: rgb( 0, 155, 0);
+    transition-timing-function: ease;
+    animation-name: grid3animation;
+}
+@keyframes grid3animation {
+    0%{
+        background-color: #f55c47;
+    }
+    25%{
+        background-color: rgb(155,0 , 0);
+    }
+    50%{
+        background-color: rgb(0, 80, 0);
+    }
+     
+    100%{
+        background-color: rgb(0, 155, 0);
+    }
+}
+.grid1item4{
+    width: 100px;
+    height: 100px;
+    transition: 4500ms;
+    animation-duration: 2500ms;
+    animation-iteration-count: 1;
+}
+.grid1item4:hover{
+    width: 300px;
+    background-color: rgb( 0, 155, 0);
+    transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation-name: grid4animation;
+}
+@keyframes grid4animation {
+    0%{
+        background-color: #f55c47;
+    }
+    25%{
+        background-color: rgb(155,0 , 0);
+    }
+    50%{
+        background-color: rgb(0, 80, 0);
+    }
+     
+    100%{
+        background-color: rgb(0, 155, 0);
+    }
+}
+.grid1item5{
+    width: 100px;
+    height: 100px;
+    transition: 2500ms;
+    animation-duration: 2500ms;
+    animation-iteration-count: 1;
+}
+.grid1item5:hover{
+    width: 300px;
+    background-color: rgb( 0, 155, 0);
+    transition-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
+    animation-name: grid5animation;
+}
+@keyframes grid5animation {
+    0%{
+        background-color: #f55c47;
+    }
+    25%{
+        background-color: rgb(155,0 , 0);
+    }
+    50%{
+        background-color: rgb(0, 80, 0);
+    }
+     
+    100%{
+        background-color: rgb(0, 155, 0);
+    }
+}
+.grid1item6{
+    width: 100px;
+    height: 100px;
+    transition: 2500ms;
+    animation-duration: 2500ms;
+    animation-iteration-count: 1;
+}
+.grid1item6:hover{
+    width: 300px;
+    background-color: rgb( 0, 155, 0);
+    transition-timing-function:cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    animation-name: grid6animation;
+}
+@keyframes grid6animation {
+    0%{
+        background-color: #f55c47;
+    }
+    25%{
+        background-color: rgb(155,0 , 0);
+    }
+    50%{
+        background-color: rgb(0, 80, 0);
+    }
+     
+    100%{
+        background-color: rgb(0, 155, 0);
+    }
+}
+.grid1item7{
+    width: 100px;
+    height: 100px;
+    transition: 2500ms;
+    animation-duration: 2500ms;
+    animation-iteration-count: 1;
+}
+.grid1item7:hover{
+    width: 300px;
+    background-color: rgb( 0, 155, 0);
+    transition-timing-function:cubic-bezier(1, 0, 0, 1);
+    animation-name: grid7animation;
+}
+@keyframes grid7animation {
+    0%{
+        background-color: #f55c47;
+    }
+    25%{
+        background-color: rgb(155,0 , 0);
+    }
+    50%{
+        background-color: rgb(0, 80, 0);
+    }
+     
+    100%{
+        background-color: rgb(0, 155, 0);
+    }
+}
+
+
+.grid2-container{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 150px 150px;
+    column-gap: 25px;
+    row-gap: 25px;
+    padding-left: 35%;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.grid2-item{
+    background-color: #f55c47;
+    margin: 10px;
+    height: 100px;
+    align-content: center;
+    user-select: none;
+}
+.grid2item1{
+    width: 130px;
+    transition: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+}
+.grid2hoversection1:hover + .grid2item1{
+     width: 300px;
+     animation-name: grid2item1hover;
+     background-color: rgb( 0, 155, 0);
+}
+@keyframes grid2item1hover {
+    
+    0%{
+        background-color: #f55c47;
+    }
+    25%{
+        background-color: rgb(155,0 , 0);
+    }
+    50%{
+        background-color: rgb(0, 80, 0);
+    }
+     
+    100%{
+        background-color: rgb(0, 155, 0);
+    }
+}
+.grid2item2{
+    width: 130px;
+    transition: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+}
+.grid2hoversection2:active + .grid2item2{
+     width: 300px;
+     animation-name: grid2item2hover;
+     background-color: rgb( 0, 155, 0);
+}
+@keyframes grid2item2hover {
+    
+    0%{
+        background-color: #f55c47;
+    }
+    25%{
+        background-color: rgb(155,0 , 0);
+    }
+    50%{
+        background-color: rgb(0, 80, 0);
+    }
+     
+    100%{
+        background-color: rgb(0, 155, 0);
+    }
+}
+.grid2item3{
+    width: 130px;
+    transition: 3s;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+
+}
+
+.grid2hoversection3:hover + .grid2item3{
+     width: 300px;
+     animation-name: grid2item3hover;
+     background-color: rgb( 0, 155, 0);
+}
+.grid2hoversection3:active + .grid2item3{
+     width: 500px;
+     animation-name: grid2item3hover;
+     background-color: rgb( 0, 155, 0);
+}
+@keyframes grid2item3hover {
+    
+    0%{
+        background-color: #f55c47;
+    }
+    25%{
+        background-color: rgb(155,0 , 0);
+    }
+    50%{
+        background-color: rgb(0, 80, 0);
+    }
+     
+    100%{
+        background-color: rgb(0, 155, 0);
+    }
+}
